@@ -28,6 +28,15 @@ st.markdown(
     "Predicts the temperature and weather condition for the next 7 days using Machine Learning.")
 
 st.sidebar.header("Settings")
+st.sidebar.markdown("---")
+st.sidebar.markdown("### About")
+st.sidebar.info(
+    "🌦️ **Weather Prediction Dashboard**\n\n"
+    "This application uses Machine Learning (Random Forest) to forecast temperature and weather conditions for the next 7 days based on localized historical data.\n\n"
+    "Built with Python, Scikit-Learn, and Streamlit."
+)
+st.sidebar.markdown("---")
+
 DATA_DIR = "data"
 MODEL_DIR = "models"
 
